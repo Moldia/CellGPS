@@ -11,7 +11,7 @@ def load_xenium_transcripts(folder: str) -> pd.DataFrame:
     except ImportError as exc:
         raise ImportError(
             "pyXenium>=0.4.3 is required for transcript-by-cell analysis. "
-            "Install Cell-GPS[xenium] or install pyXenium in the active environment."
+            "Install CellGPS[xenium] or install pyXenium in the active environment."
         ) from exc
 
     sdata = px_io.read_xenium(

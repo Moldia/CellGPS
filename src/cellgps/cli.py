@@ -1,4 +1,4 @@
-"""Console script placeholder for Cell-GPS."""
+"""Console script placeholder for CellGPS."""
 
 import typer
 from rich.console import Console
@@ -9,7 +9,7 @@ console = Console()
 
 @app.command()
 def main():
-    """Console script placeholder for Cell-GPS."""
+    """Console script placeholder for CellGPS."""
     console.print("Replace this message by putting your code into cellgps.cli.main")
     console.print("See Typer documentation at https://typer.tiangolo.com/")
 

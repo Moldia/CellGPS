@@ -1,4 +1,4 @@
-"""Public Python package for Cell-GPS."""
+"""Public Python package for CellGPS."""
 
 from __future__ import annotations
 
@@ -10,7 +10,7 @@ __author__ = "Taobo Hu"
 __email__ = "taobo.hu@scilifelab.se"
 
 try:
-    __version__ = version("Cell-GPS")
+    __version__ = version("CellGPS")
 except PackageNotFoundError:
     __version__ = "0.0.6"
 

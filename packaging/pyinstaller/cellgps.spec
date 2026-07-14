@@ -68,5 +68,5 @@ exe = EXE(
     upx=False,
     console=False,
     disable_windowed_traceback=False,
-    icon=str(spec_dir / "cell_gps_icon.ico"),
+    icon=str(spec_dir / "cellgps_icon.ico"),
 )

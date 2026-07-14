@@ -27,7 +27,7 @@ def main() -> None:
 class MainApp(tk.Tk):
     def __init__(self) -> None:
         super().__init__()
-        self.title("Cell-GPS GUI")
+        self.title("CellGPS GUI")
         self.geometry("1000x750")
 
         self._queue: queue.Queue[tuple[str, object]] = queue.Queue()

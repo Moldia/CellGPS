@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-"""Basic smoke tests for the Cell-GPS public package surfaces."""
+"""Basic smoke tests for the CellGPS public package surfaces."""
 
 import pathlib
 import sys
@@ -23,7 +23,7 @@ class TestCellGps(unittest.TestCase):
         self.assertGreater(len(cellgps.__all__), 0)
 
     def test_removed_source_namespace_is_absent(self):
-        """The source tree should expose Cell-GPS through cellgps only."""
+        """The source tree should expose CellGPS through cellgps only."""
         package_root = pathlib.Path(__file__).resolve().parents[1] / "src"
         old_namespace = "sf" + "plot"
         self.assertFalse((package_root / old_namespace).exists())

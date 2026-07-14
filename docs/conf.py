@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 #
-# Cell-GPS documentation build configuration file, created by
+# CellGPS documentation build configuration file, created by
 # sphinx-quickstart on Fri Jun  9 13:47:02 2017.
 #
 # This file is execfile()d with the current directory set to its
@@ -47,7 +47,7 @@ source_suffix = {'.rst': 'restructuredtext'}
 master_doc = 'index'
 
 # General information about the project.
-project = 'Cell-GPS'
+project = 'CellGPS'
 copyright = "2025, Taobo Hu"
 author = "Taobo Hu"
 
@@ -85,7 +85,7 @@ todo_include_todos = False
 # a list of builtin themes.
 #
 html_theme = 'alabaster'
-html_title = 'Cell-GPS manuscript and package documentation'
+html_title = 'CellGPS manuscript and package documentation'
 
 # Theme options are theme-specific and customize the look and feel of a
 # theme further.  For a list of options available for each theme, see the
@@ -130,7 +130,7 @@ latex_elements = {
 # [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'cellgps.tex',
-     'Cell-GPS Documentation',
+     'CellGPS Documentation',
      'Taobo Hu', 'manual'),
 ]
 
@@ -141,7 +141,7 @@ latex_documents = [
 # (source start file, name, description, authors, manual section).
 man_pages = [
     (master_doc, 'cellgps',
-     'Cell-GPS Documentation',
+     'CellGPS Documentation',
      [author], 1)
 ]
 
@@ -153,9 +153,9 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
     (master_doc, 'cellgps',
-     'Cell-GPS Documentation',
+     'CellGPS Documentation',
      author,
-     'Cell-GPS',
+     'CellGPS',
      'Spatial topology analysis for spatial omics data.',
      'Miscellaneous'),
 ]

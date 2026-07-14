@@ -2,7 +2,7 @@
 Reproducing Manuscript Code
 ===========================
 
-This page describes a practical workflow for using the Cell-GPS manuscript
+This page describes a practical workflow for using the CellGPS manuscript
 code. The goal is to make the computational source for each figure and table
 easy to inspect, rerun where data access permits, and adapt to related spatial
 omics datasets.
@@ -14,8 +14,8 @@ Install the package and clone the repository:
 
 .. code-block:: console
 
-   pip install Cell-GPS
-   git clone https://github.com/hutaobo/cellgps.git
+   pip install CellGPS
+   git clone https://github.com/Moldia/CellGPS.git
    cd cellgps
 
 For editable local development:
@@ -28,7 +28,7 @@ The manuscript notebooks are under:
 
 .. code-block:: text
 
-   Cell-GPS manuscript/
+   CellGPS manuscript/
      main_figures/
      supplementary_figures/
      supplementary_tables/

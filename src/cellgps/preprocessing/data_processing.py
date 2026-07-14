@@ -13,7 +13,7 @@ def _load_scanpy_module():
         return importlib.import_module("scanpy")
     except ImportError as exc:
         raise ImportError(
-            "scanpy is required for Xenium normalization. Install Cell-GPS[xenium] to use this option."
+            "scanpy is required for Xenium normalization. Install CellGPS[xenium] to use this option."
         ) from exc
 
 
@@ -22,7 +22,7 @@ def _load_pyxenium_io_module():
         return importlib.import_module("pyXenium.io")
     except ImportError as exc:
         raise ImportError(
-            "pyXenium>=0.4.3 is required for Xenium loading. Install Cell-GPS[xenium] "
+            "pyXenium>=0.4.3 is required for Xenium loading. Install CellGPS[xenium] "
             "or install pyXenium in the active environment."
         ) from exc
 
@@ -131,7 +131,7 @@ def load_xenium_table_bundle(
 
     The returned object keeps the requested cluster labels in
     ``adata.obs[cluster_col]`` and mirrors them into ``adata.obs["Cluster"]`` for
-    the Cell-GPS analysis API.
+    the CellGPS analysis API.
     """
     folder_path = Path(folder)
     px_io = _load_pyxenium_io_module()

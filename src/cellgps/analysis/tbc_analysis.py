@@ -35,7 +35,7 @@ logging.basicConfig(
     format="%(asctime)s %(levelname)-8s %(name)-15s | %(message)s"
 )
 # suppress logs from specific libraries
-for lib in ("Cell-GPS", "pyXenium", "anndata", "seaborn"):
+for lib in ("CellGPS", "pyXenium", "anndata", "seaborn"):
     logging.getLogger(lib).setLevel(logging.ERROR)
 
 # Globals visible inside worker processes

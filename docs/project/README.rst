@@ -1,16 +1,16 @@
 ========
-Cell-GPS
+CellGPS
 ========
 
-``Cell-GPS`` is a Python package for spatial topology analysis in spatial omics
-data. Cell-GPS is used to compute cophenetic distance-based structure maps,
+``CellGPS`` is a Python package for spatial topology analysis in spatial omics
+data. CellGPS is used to compute cophenetic distance-based structure maps,
 analyze cell-cell and transcript-cell relationships, and visualize multiscale
 tissue organization.
 
 Package names
 -------------
 
-* Python distribution: ``Cell-GPS``
+* Python distribution: ``CellGPS``
 * Python import package: ``cellgps``
 * R package/repository: ``cellgpsr``
 * Windows executable: ``cellgps.exe``
@@ -32,13 +32,13 @@ Install from GitHub:
 
 .. code-block:: bash
 
-   pip install git+https://github.com/hutaobo/cellgps.git
+   pip install git+https://github.com/Moldia/CellGPS.git
 
 For local inspection:
 
 .. code-block:: bash
 
-   git clone https://github.com/hutaobo/cellgps.git
+   git clone https://github.com/Moldia/CellGPS.git
    cd cellgps
    pip install -e .
 
@@ -47,5 +47,5 @@ Reviewer note
 
 The Python package and implementation modules live in ``src/cellgps/``.
 Curated manuscript figure and supplementary table notebooks are stored in
-``Cell-GPS manuscript/``. See
+``CellGPS manuscript/``. See
 ``docs/project/REVIEWER_GUIDE.md`` for a short walkthrough of the repository.

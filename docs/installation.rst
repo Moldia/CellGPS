@@ -4,24 +4,6 @@
 Installation
 ============
 
-From PyPI
----------
-
-Install the Python package:
-
-.. code-block:: console
-
-   $ pip install Cell-GPS
-
-From conda-forge
-----------------
-
-Install the official conda-forge package:
-
-.. code-block:: console
-
-   $ conda install -c conda-forge cell-gps
-
 From GitHub
 -----------
 
@@ -29,7 +11,7 @@ Install directly from the public repository:
 
 .. code-block:: console
 
-   $ pip install git+https://github.com/hutaobo/cellgps.git
+   $ pip install git+https://github.com/Moldia/CellGPS.git
 
 For local inspection
 --------------------
@@ -38,7 +20,7 @@ Clone the repository and install it in editable mode:
 
 .. code-block:: console
 
-   $ git clone https://github.com/hutaobo/cellgps.git
+   $ git clone https://github.com/Moldia/CellGPS.git
    $ cd cellgps
    $ pip install -e .
 
@@ -68,7 +50,10 @@ Install Visium support:
 Related Packages
 ----------------
 
-* Python repository: https://github.com/hutaobo/cellgps
-* Conda-forge package: https://anaconda.org/conda-forge/cell-gps
-* R package repository: https://github.com/hutaobo/cellgpsr
-* Windows executable release: latest open v2 DOI https://doi.org/10.5281/zenodo.19482685; version-series route https://zenodo.org/records/17859173
+* Python repository: https://github.com/Moldia/CellGPS
+* R package repository: https://github.com/Moldia/cellgpsr
+* Windows files: https://zenodo.org/records/19482685
+
+The Python repository is the primary, full implementation and includes all
+CellGPS functions plus the complete bioRxiv preprint reproduction code. The R
+package and Windows files provide only the core functionality.

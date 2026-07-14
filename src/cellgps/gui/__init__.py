@@ -1,4 +1,4 @@
-"""Cell-GPS graphical user interface entry point."""
+"""CellGPS graphical user interface entry point."""
 
 from .gui_app import main
 

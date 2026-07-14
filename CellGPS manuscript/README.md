@@ -1,6 +1,6 @@
-# Cell-GPS manuscript
+# CellGPS manuscript
 
-This folder reorganizes the located Cell-GPS Science manuscript analysis code by manuscript result.
+This folder reorganizes the located CellGPS Science manuscript analysis code by manuscript result.
 
 The notebooks are written in English and are intentionally output-free. They preserve the original data paths found during the code inventory and add detailed comments explaining each computational step. Some notebooks require data on the Y drive or on the A100 server paths used during manuscript preparation.
 

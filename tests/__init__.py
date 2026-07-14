@@ -1,1 +1,1 @@
-"""Unit test package for Cell-GPS."""
+"""Unit test package for CellGPS."""

@@ -5,7 +5,7 @@ History
 Unreleased
 ----------
 
-* Renamed the ``Cell-GPS manuscript code/`` folder to ``Cell-GPS manuscript/`` and updated all README, documentation, and project-URL references.
+* Renamed the ``CellGPS manuscript code/`` folder to ``CellGPS manuscript/`` and updated all README, documentation, and project-URL references.
 * Documented the COSTE extension manuscripts under ``manuscripts/`` in the README and repository layout.
 * Removed superseded duplicate scripts from ``benchmarking/``, moved the cell-based COSTE-HistoSeg script and benchmark log into the segmentation-free transcript-domain manuscript folder, and removed a duplicate Windows build-guide ``.docx``.
 * Organized root-level project notes and Windows packaging assets into dedicated folders.
@@ -22,8 +22,8 @@ Unreleased
 0.0.5 (2026-05-30)
 ------------------
 
-* Updated the README to connect Cell-GPS with the bioRxiv preprint.
-* Documented the curated figure and table notebooks under ``Cell-GPS manuscript/``.
+* Updated the README to connect CellGPS with the bioRxiv preprint.
+* Documented the curated figure and table notebooks under ``CellGPS manuscript/``.
 * Added PyPI project links for the preprint and manuscript code.
 
 0.0.2 (2026-04-02)

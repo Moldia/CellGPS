@@ -2,7 +2,7 @@
 
 ## 1. 结论先说
 
-这份 `Y:\long\projects\Packagedevelopment\Cell-GPS\cellgps\dist\cellgps.exe` 基本可以判断为一个 PyInstaller `--onefile` 风格的 Windows GUI 打包产物。
+这份 `Y:\long\projects\Packagedevelopment\CellGPS\cellgps\dist\cellgps.exe` 基本可以判断为一个 PyInstaller `--onefile` 风格的 Windows GUI 打包产物。
 
 官方 Windows 单文件最新 open v2 DOI：<https://doi.org/10.5281/zenodo.19482685>
 
@@ -162,7 +162,7 @@ GUI 入口文件只用到了少数功能，但它通过 `from cellgps import ...
 
 建议这样说：
 
-- “这是面向 Windows 64 位的单文件版 Cell-GPS，已内置 Python 和主要依赖，通常无需额外安装环境即可运行。首次启动会稍慢，因为程序会先在临时目录解压运行时文件。”
+- “这是面向 Windows 64 位的单文件版 CellGPS，已内置 Python 和主要依赖，通常无需额外安装环境即可运行。首次启动会稍慢，因为程序会先在临时目录解压运行时文件。”
 
 这个表述更准确，也更符合它现在的打包方式。
 
@@ -181,8 +181,8 @@ GUI 入口文件只用到了少数功能，但它通过 `from cellgps import ...
 
 推荐位置示例：
 
-- `C:\Users\<用户名>\Desktop\Cell-GPS\cellgps.exe`
-- `C:\Users\<用户名>\Downloads\Cell-GPS\cellgps.exe`
+- `C:\Users\<用户名>\Desktop\CellGPS\cellgps.exe`
+- `C:\Users\<用户名>\Downloads\CellGPS\cellgps.exe`
 
 不建议：
 

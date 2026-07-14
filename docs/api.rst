@@ -2,7 +2,7 @@
 API reference
 =============
 
-This page documents the public Cell-GPS functions intended for direct use in
+This page documents the public CellGPS functions intended for direct use in
 analysis scripts. The import path is ``cellgps``.
 
 Core COSTE and StructureMap functions

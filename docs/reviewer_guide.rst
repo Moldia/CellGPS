@@ -2,16 +2,16 @@
 Reviewer Guide
 ==============
 
-This repository contains the code used to develop the Cell-GPS
+This repository contains the code used to develop the CellGPS
 workflow described in the manuscript.
 
 Package naming
 --------------
 
-* Python distribution: ``Cell-GPS``
+* Python distribution: ``CellGPS``
 * Python import package: ``cellgps``
-* Python GitHub repository: https://github.com/hutaobo/Cell-GPS
-* R package/repository: ``cellgpsr`` at https://github.com/hutaobo/cellgpsr
+* Python GitHub repository: https://github.com/Moldia/CellGPS
+* R package/repository: ``cellgpsr`` at https://github.com/Moldia/cellgpsr
 * Windows executable: ``cellgps.exe`` at latest open v2 DOI https://doi.org/10.5281/zenodo.19482685; version-series route https://zenodo.org/records/17859173
 
 Suggested reading order
@@ -27,7 +27,7 @@ Repository map
 
 * ``src/cellgps/``: Python package and implementation modules
 * ``docs/``: package documentation
-* ``Cell-GPS manuscript/``: curated manuscript figure and table notebooks
+* ``CellGPS manuscript/``: curated manuscript figure and table notebooks
 * ``examples/``: compact package usage examples and small example data files
 * ``packaging/``: historical packaging recipes and Windows executable build assets
 
@@ -36,7 +36,7 @@ Minimal install
 
 .. code-block:: console
 
-   $ git clone https://github.com/hutaobo/Cell-GPS.git
+   $ git clone https://github.com/Moldia/CellGPS.git
    $ cd cellgps
    $ pip install -e .
 
@@ -44,7 +44,7 @@ Manuscript validation scope
 ---------------------------
 
 The manuscript-validated scope is the COSTE/SSS workflow and the figure/table
-analyses mapped in ``Cell-GPS manuscript/`` and
+analyses mapped in ``CellGPS manuscript/`` and
 ``docs/cellgps_science_manuscript_code_inventory.md``. Ligand-receptor
 topology, pathway topology, Visium helpers, GUI entry points and other
 convenience APIs are included for reuse and development, but should be treated

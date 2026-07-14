@@ -2,13 +2,13 @@
 Manuscript Overview
 ===================
 
-This page introduces the Cell-GPS/COSTE preprint and explains how the
+This page introduces the CellGPS/COSTE preprint and explains how the
 manuscript code in this repository is organized.
 
 Preprint
 ========
 
-Cell-GPS/COSTE is described in the bioRxiv preprint:
+CellGPS/COSTE is described in the bioRxiv preprint:
 
    Long M, Hu T, Sountoulidis A, Samakovlis C, Nilsson M.
    Cophenetic Spatial Topology Embedding reveals multiscale tissue
@@ -54,7 +54,7 @@ Repository Companion Code
 
 The curated manuscript notebooks are stored in:
 
-   https://github.com/hutaobo/cellgps/tree/main/Cell-GPS%20manuscript
+   https://github.com/Moldia/CellGPS/tree/main/CellGPS%20manuscript
 
 The folder is organized by manuscript result:
 

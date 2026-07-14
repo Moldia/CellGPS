@@ -21,7 +21,7 @@ import numpy as np
 import pandas as pd
 from tqdm import tqdm
 
-# --- Cell-GPS utilities -----------------------------------------------
+# --- CellGPS utilities -----------------------------------------------
 from ..preprocessing.data_processing import load_xenium_data
 from ._xenium_io import iter_cellgps_gene_names, load_xenium_transcripts
 from .searcher_findee_score import (

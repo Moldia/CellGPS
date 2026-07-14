@@ -47,7 +47,7 @@ Pillow, scikit-image, zarr, tifffile, psutil.
 
 ## Related software
 
-- COSTE / Cell-GPS: https://github.com/hutaobo/Cell-GPS
+- COSTE / CellGPS: https://github.com/Moldia/CellGPS
 - HistoSeg: https://github.com/hutaobo/HistoSeg
 
 The manuscript text is not included in this directory; it will be available with

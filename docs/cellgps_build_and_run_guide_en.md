@@ -1,12 +1,12 @@
-# Cell-GPS/COSTE Manual: Topology-Based Spatial Omics Analysis from Coordinates to StructureMap
+# CellGPS/COSTE Manual: Topology-Based Spatial Omics Analysis from Coordinates to StructureMap
 
 ## 1. Executive Summary
 
-Cell-GPS is the reference software implementation for Cophenetic Spatial Topology Embedding (COSTE), a method for converting spatial omics coordinates and biological labels into tissue-scale topology summaries. The associated methods article presents COSTE as a general framework for measuring multiscale tissue architecture, generating StructureMap heatmaps and Spatial Separation Score (SSS) profiles, and extending the same coordinate-based logic to cells, transcripts, pathways, ligand-receptor candidates and other spatial entities.
+CellGPS is the reference software implementation for Cophenetic Spatial Topology Embedding (COSTE), a method for converting spatial omics coordinates and biological labels into tissue-scale topology summaries. The associated methods article presents COSTE as a general framework for measuring multiscale tissue architecture, generating StructureMap heatmaps and Spatial Separation Score (SSS) profiles, and extending the same coordinate-based logic to cells, transcripts, pathways, ligand-receptor candidates and other spatial entities.
 
 This manual is the practical companion to that methods article. It explains what the Windows executable contains, how it should be distributed, which workflows are exposed in the current graphical interface and how users should describe the standalone build accurately.
 
-`cellgps.exe` is a Windows x64 single-file GUI application packaged from the `Cell-GPS` codebase.
+`cellgps.exe` is a Windows x64 single-file GUI application packaged from the `CellGPS` codebase.
 
 For end users, it behaves like a standalone desktop program:
 
@@ -25,7 +25,7 @@ This is still a valid standalone distribution model, but it is important to desc
 
 The methods article should be described as a spatial-omics topology paper rather than a conventional clustering or visualization report. Its central claim is that tissue organization can be quantified by asking how annotated spatial entities find one another across the tissue field, transforming directed nearest-neighbor relationships into a cophenetic topology space. In this framework, a StructureMap summarizes relationships among populations, while SSS profiles quantify how close one entity is to biologically meaningful reference groups.
 
-Cell-GPS provides the software route from input coordinates to these outputs. It can operate on simple coordinate tables, `AnnData` objects and Xenium-style spatial transcriptomics outputs. The same conceptual workflow also supports transcript-by-cell and entity-to-cell analyses, allowing the method to move beyond cell-type neighborhood summaries toward segment-free or molecule-aware spatial evidence.
+CellGPS provides the software route from input coordinates to these outputs. It can operate on simple coordinate tables, `AnnData` objects and Xenium-style spatial transcriptomics outputs. The same conceptual workflow also supports transcript-by-cell and entity-to-cell analyses, allowing the method to move beyond cell-type neighborhood summaries toward segment-free or molecule-aware spatial evidence.
 
 The current executable is therefore best presented as a companion tool for applying COSTE workflows on Windows, especially for researchers who want to inspect coordinate-table or Xenium-derived StructureMap results without installing a Python environment.
 
@@ -86,7 +86,7 @@ For external release, distribute the software with:
 
 When sharing the executable with researchers, use wording like this:
 
-> Cell-GPS is a Windows 64-bit single-file desktop build that already contains the required Python runtime and major dependencies. In most cases, no additional software installation is needed. The first launch may take longer because the application unpacks its runtime files into the user's temporary directory.
+> CellGPS is a Windows 64-bit single-file desktop build that already contains the required Python runtime and major dependencies. In most cases, no additional software installation is needed. The first launch may take longer because the application unpacks its runtime files into the user's temporary directory.
 
 ## 8. System Requirements
 
@@ -107,8 +107,8 @@ Do not run the program directly from:
 
 Recommended locations:
 
-- `C:\Users\<username>\Desktop\Cell-GPS\cellgps.exe`
-- `C:\Users\<username>\Downloads\Cell-GPS\cellgps.exe`
+- `C:\Users\<username>\Desktop\CellGPS\cellgps.exe`
+- `C:\Users\<username>\Downloads\CellGPS\cellgps.exe`
 
 ### 9.2 Unblock the file if Windows marked it as downloaded
 

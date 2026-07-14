@@ -1,7 +1,7 @@
-Cell-GPS documentation
+CellGPS documentation
 ======================
 
-Cell-GPS is the reference implementation for Cophenetic Spatial Topology
+CellGPS is the reference implementation for Cophenetic Spatial Topology
 Embedding (COSTE), a framework for analyzing multiscale tissue architecture
 in spatial omics data. These docs cover both the installable Python package
 and the manuscript companion code.

@@ -1,10 +1,10 @@
-# Extended Notes for Cell-GPS
+# Extended Notes for CellGPS
 
 This file provides a compact English overview of the main modules in the repository. It replaces an earlier internal draft note so that reviewer-facing documentation remains consistent.
 
 Recommended public names:
 
-- Python distribution: `Cell-GPS`
+- Python distribution: `CellGPS`
 - Python import package: `cellgps`
 - R package/repository: `cellgpsr`
 - Windows executable: `cellgps.exe`
@@ -76,7 +76,7 @@ These are convenience wrappers for quick heatmap generation from common input ty
 
 ## Manuscript-related material
 
-- `Cell-GPS manuscript/` contains notebooks, generated figures, and intermediate outputs used during manuscript preparation.
+- `CellGPS manuscript/` contains notebooks, generated figures, and intermediate outputs used during manuscript preparation.
 - `benchmarking/` contains benchmarking-related artifacts.
 - `segmentation_methods/` contains supporting segmentation workflows.
 
@@ -91,4 +91,4 @@ These are convenience wrappers for quick heatmap generation from common input ty
 ## Practical notes
 
 - If a `cellgps_tbc_formal_wta/results` directory already exists for a sample, use it as the preferred anchor input for ligand-receptor and pathway topology analyses.
-- Xenium loading uses `pyXenium>=0.4.3`; Visium remains a separate optional dependency through `Cell-GPS[visium]`.
+- Xenium loading uses `pyXenium>=0.4.3`; Visium remains a separate optional dependency through `CellGPS[visium]`.

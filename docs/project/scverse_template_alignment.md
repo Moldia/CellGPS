@@ -1,6 +1,6 @@
 # scverse template alignment
 
-Cell-GPS was not originally generated from `scverse/cookiecutter-scverse`.
+CellGPS was not originally generated from `scverse/cookiecutter-scverse`.
 The repository now adopts the parts of that structure that are low risk for an
 existing package with published users.
 

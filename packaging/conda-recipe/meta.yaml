@@ -1,4 +1,4 @@
-{% set name = "cell-gps" %}
+{% set name = "cellgps" %}
 {% set version = environ.get("RECIPE_VERSION", "") %}
 {% set python_min = "3.9" %}
 
@@ -45,8 +45,8 @@ test:
     - python {{ python_min }}
 
 about:
-  home: https://github.com/hutaobo/cellgps
-  summary: Cell-GPS spatial topology analysis for spatial omics data.
+  home: https://github.com/Moldia/CellGPS
+  summary: CellGPS spatial topology analysis for spatial omics data.
   license: MIT
   license_file: LICENSE
 

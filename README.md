@@ -1,54 +1,51 @@
-# Cell-GPS
+# CellGPS
 
-[![PyPI version](https://img.shields.io/pypi/v/Cell-GPS.svg)](https://pypi.org/project/Cell-GPS/)
-[![Documentation Status](https://readthedocs.org/projects/cell-gps/badge/?version=latest)](https://cell-gps.readthedocs.io/en/latest/?badge=latest)
-[![Conda Version](https://img.shields.io/conda/vn/conda-forge/cell-gps.svg)](https://anaconda.org/conda-forge/cell-gps)
-[![Python versions](https://img.shields.io/pypi/pyversions/Cell-GPS.svg)](https://pypi.org/project/Cell-GPS/)
-[![License](https://img.shields.io/pypi/l/Cell-GPS.svg)](LICENSE)
-[![Upload Python Package](https://github.com/hutaobo/Cell-GPS/actions/workflows/python-publish.yml/badge.svg)](https://github.com/hutaobo/Cell-GPS/actions/workflows/python-publish.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Upload Python Package](https://github.com/Moldia/CellGPS/actions/workflows/python-publish.yml/badge.svg)](https://github.com/Moldia/CellGPS/actions/workflows/python-publish.yml)
 
-`Cell-GPS` is the Python package and reference implementation for Cophenetic Spatial Topology Embedding (COSTE), a spatial topology analysis framework for spatial omics data.
+`CellGPS` is the Python package and reference implementation for Cophenetic Spatial Topology Embedding (COSTE), a spatial topology analysis framework for spatial omics data.
 
-This repository is maintained as both the installable Python package and the code companion for the Cell-GPS/COSTE bioRxiv preprint.
+This repository is maintained as both the installable Python package and the code companion for the CellGPS/COSTE bioRxiv preprint.
+
+## Implementations and availability
+
+[Moldia/CellGPS](https://github.com/Moldia/CellGPS) is the primary, full Python implementation. It contains all CellGPS functions and the complete reproduction code for the bioRxiv preprint. The [Moldia/cellgpsr](https://github.com/Moldia/cellgpsr) R package and the Windows files distributed in [Zenodo record 19482685](https://zenodo.org/records/19482685) provide only the core functionality; they do not include the full Python function set or the complete preprint reproduction code.
 
 ## Preprint and manuscript code
 
-Cell-GPS/COSTE is described in the associated bioRxiv preprint:
+CellGPS/COSTE is described in the associated bioRxiv preprint:
 
-> Long M, Hu T, Sountoulidis A, Samakovlis C, Nilsson M. Cophenetic Spatial Topology Embedding reveals multiscale tissue architecture in spatial omics. bioRxiv. 2026. doi: [10.64898/2026.05.26.727847](https://doi.org/10.64898/2026.05.26.727847)
-
-Versioned bioRxiv page: <https://www.biorxiv.org/content/10.64898/2026.05.26.727847v1>
+> Mengping Long, Taobo Hu, Alexandros Sountoulidis, Christos Samakovlis, and Mats Nilsson (2026). *Cophenetic Spatial Topology Embedding reveals multiscale tissue architecture in spatial omics*. bioRxiv preprint. [doi:10.64898/2026.05.26.727847](https://doi.org/10.64898/2026.05.26.727847). [Version 1 on bioRxiv](https://www.biorxiv.org/content/10.64898/2026.05.26.727847v1).
 
 If you use the Python package, the Windows executable, the R companion package, or the manuscript figure/table code, please cite this preprint.
 
-The code used to generate the preprint figures and supplementary tables is organized in [`Cell-GPS manuscript/`](https://github.com/hutaobo/Cell-GPS/tree/main/Cell-GPS%20manuscript):
+The code used to generate the preprint figures and supplementary tables is organized in [`CellGPS manuscript/`](https://github.com/Moldia/CellGPS/tree/main/CellGPS%20manuscript):
 
-- [`main_figures/`](https://github.com/hutaobo/Cell-GPS/tree/main/Cell-GPS%20manuscript/main_figures): notebooks for main figure analyses.
-- [`supplementary_figures/`](https://github.com/hutaobo/Cell-GPS/tree/main/Cell-GPS%20manuscript/supplementary_figures): notebooks for supplementary figure analyses.
-- [`supplementary_tables/`](https://github.com/hutaobo/Cell-GPS/tree/main/Cell-GPS%20manuscript/supplementary_tables): notebooks for supplementary table analyses.
+- [`main_figures/`](https://github.com/Moldia/CellGPS/tree/main/CellGPS%20manuscript/main_figures): notebooks for main figure analyses.
+- [`supplementary_figures/`](https://github.com/Moldia/CellGPS/tree/main/CellGPS%20manuscript/supplementary_figures): notebooks for supplementary figure analyses.
+- [`supplementary_tables/`](https://github.com/Moldia/CellGPS/tree/main/CellGPS%20manuscript/supplementary_tables): notebooks for supplementary table analyses.
 
-The notebooks are intentionally output-free and preserve the original manuscript data paths where those paths were required for reproduction. A detailed mapping from manuscript results to source code is available in [`docs/cellgps_science_manuscript_code_inventory.md`](https://github.com/hutaobo/Cell-GPS/blob/main/docs/cellgps_science_manuscript_code_inventory.md).
+The notebooks are intentionally output-free and preserve the original manuscript data paths where those paths were required for reproduction. A detailed mapping from manuscript results to source code is available in [`docs/cellgps_science_manuscript_code_inventory.md`](https://github.com/Moldia/CellGPS/blob/main/docs/cellgps_science_manuscript_code_inventory.md).
 
 ## COSTE extension manuscripts
 
-Beyond the main Cell-GPS/COSTE preprint above, the [`manuscripts/`](https://github.com/hutaobo/Cell-GPS/tree/main/manuscripts) directory collects the analysis and figure-generation code for follow-up manuscripts that build on the COSTE method. Each subfolder is a self-contained study with its own README describing the dataset, scripts, and reproduction steps:
+Beyond the main CellGPS/COSTE preprint above, the [`manuscripts/`](https://github.com/Moldia/CellGPS/tree/main/manuscripts) directory collects the analysis and figure-generation code for follow-up manuscripts that build on the COSTE method. Each subfolder is a self-contained study with its own README describing the dataset, scripts, and reproduction steps:
 
-- [`manuscripts/atera_urna/`](https://github.com/hutaobo/Cell-GPS/tree/main/manuscripts/atera_urna): Atera uRNA-COSTE study — segmentation-bias check using unassigned RNA (uRNA, transcripts not assigned to a segmented cell) and uRNA-COSTE concordance analysis.
-- [`manuscripts/segmentation_free_transcript_domains/`](https://github.com/hutaobo/Cell-GPS/tree/main/manuscripts/segmentation_free_transcript_domains): segmentation-free spatial domain discovery from transcript points alone.
+- [`manuscripts/atera_urna/`](https://github.com/Moldia/CellGPS/tree/main/manuscripts/atera_urna): Atera uRNA-COSTE study — segmentation-bias check using unassigned RNA (uRNA, transcripts not assigned to a segmented cell) and uRNA-COSTE concordance analysis.
+- [`manuscripts/segmentation_free_transcript_domains/`](https://github.com/Moldia/CellGPS/tree/main/manuscripts/segmentation_free_transcript_domains): segmentation-free spatial domain discovery from transcript points alone.
 
 For details on any extension manuscript, read the README inside its subfolder.
 
 ## Package Names
 
-- Python distribution: `Cell-GPS`
-- Conda-forge distribution: `cell-gps`
+- Python distribution: `CellGPS`
 - Python import package: `cellgps`
 - R package/repository: `cellgpsr`
 - Windows executable: `cellgps.exe`
 
-The Python package is hosted at `https://github.com/hutaobo/Cell-GPS`. The R package is hosted separately at `https://github.com/hutaobo/cellgpsr`. The Windows single-file executable is distributed through Zenodo; use the latest open v2 DOI <https://doi.org/10.5281/zenodo.19482685> or the version-series route <https://zenodo.org/records/17859173>.
+The Python package is hosted at <https://github.com/Moldia/CellGPS>. The R package is hosted separately at <https://github.com/Moldia/cellgpsr>. The Windows files are distributed through <https://zenodo.org/records/19482685>.
 
-## What Cell-GPS does
+## What CellGPS does
 
 - Computes searcher-findee distance matrices from spatial coordinates and cell labels.
 - Builds cophenetic distance matrices and StructureMap heatmaps from `AnnData` objects or plain `pandas` tables.
@@ -65,7 +62,7 @@ The Python package is hosted at `https://github.com/hutaobo/Cell-GPS`. The R pac
 - `tests/`: package tests and smoke checks.
 - `docs/`: Sphinx documentation.
 - `docs/project/`: project notes, changelog, authors, and reviewer guide.
-- `Cell-GPS manuscript/`: curated preprint figure and table notebooks for the main Cell-GPS/COSTE bioRxiv preprint.
+- `CellGPS manuscript/`: curated preprint figure and table notebooks for the main CellGPS/COSTE bioRxiv preprint.
 - `manuscripts/`: analysis code for follow-up COSTE extension manuscripts, one self-contained study per subfolder (see each subfolder's README).
 - `examples/`: compact usage examples and small example data files.
 - `packaging/conda-recipe/`: archived local conda recipe retained for reference.
@@ -73,28 +70,16 @@ The Python package is hosted at `https://github.com/hutaobo/Cell-GPS`. The R pac
 
 ## Installation
 
-Install from PyPI:
+Install the current source directly from GitHub:
 
 ```bash
-pip install Cell-GPS
-```
-
-Install from conda-forge:
-
-```bash
-conda install -c conda-forge cell-gps
-```
-
-Install directly from GitHub:
-
-```bash
-pip install git+https://github.com/hutaobo/Cell-GPS.git
+pip install git+https://github.com/Moldia/CellGPS.git
 ```
 
 For local development or reviewer inspection:
 
 ```bash
-git clone https://github.com/hutaobo/Cell-GPS.git
+git clone https://github.com/Moldia/CellGPS.git
 cd cellgps
 pip install -e .
 ```
@@ -172,29 +157,25 @@ row_coph, col_coph = compute_cophenetic_distances_from_adata(
 
 ## Validation scope
 
-The manuscript-validated scope is the COSTE/SSS workflow and the figure/table analyses mapped in `Cell-GPS manuscript/` and `docs/cellgps_science_manuscript_code_inventory.md`. Ligand-receptor topology, pathway topology, Visium helpers, GUI entry points and other convenience APIs are included for reuse and development, but should be treated as optional or exploratory unless a manuscript notebook or documentation page explicitly maps them to a reported analysis.
+The manuscript-validated scope is the COSTE/SSS workflow and the figure/table analyses mapped in `CellGPS manuscript/` and `docs/cellgps_science_manuscript_code_inventory.md`. Ligand-receptor topology, pathway topology, Visium helpers, GUI entry points and other convenience APIs are included for reuse and development, but should be treated as optional or exploratory unless a manuscript notebook or documentation page explicitly maps them to a reported analysis.
 
 ## Notes for reviewers
 
-- The curated figure and table notebooks for the bioRxiv preprint are kept in `Cell-GPS manuscript/`.
+- The curated figure and table notebooks for the bioRxiv preprint are kept in `CellGPS manuscript/`.
 - Raw experimental datasets are not bundled in this repository because of size and distribution constraints. The code expects standard spatial omics outputs such as Xenium folders or tabular coordinate inputs.
-- Conda-forge packages the upstream Python distribution as `cell-gps`.
 - When a `cellgps_tbc_formal_wta/results`-style directory is already available, the LR and pathway topology extensions are designed to reuse its `t_and_c_result_*.csv` and `StructureMap_table_*.csv` outputs as the preferred gene-level topology anchors before falling back to recomputation.
-- Xenium loading depends on `pyXenium>=0.4.3`. Visium helpers remain optional through the separate `Cell-GPS[visium]` extra.
+- Xenium loading depends on `pyXenium>=0.4.3`. Visium helpers remain optional through the separate `CellGPS[visium]` extra.
 - A short repository walkthrough is available in [docs/project/REVIEWER_GUIDE.md](docs/project/REVIEWER_GUIDE.md).
 
 ## Documentation
 
-Read the Docs documentation is available at <https://cell-gps.readthedocs.io/en/latest/>.
-The manuscript-focused pages introduce the bioRxiv preprint, explain how to use the curated figure/table notebooks, and map each figure and supplementary table to its GitHub code location.
-
-Sphinx documentation sources are available in `docs/`.
+Sphinx documentation sources are available in [`docs/`](docs/). The manuscript-focused pages introduce the bioRxiv preprint, explain how to use the curated figure/table notebooks, and map each figure and supplementary table to its GitHub code location.
 
 ## Citation
 
-If you use Cell-GPS or reuse the manuscript analysis code, please cite:
+If you use CellGPS or reuse the manuscript analysis code, please cite:
 
-> Long M, Hu T, Sountoulidis A, Samakovlis C, Nilsson M. Cophenetic Spatial Topology Embedding reveals multiscale tissue architecture in spatial omics. bioRxiv. 2026. doi: [10.64898/2026.05.26.727847](https://doi.org/10.64898/2026.05.26.727847)
+> Mengping Long, Taobo Hu, Alexandros Sountoulidis, Christos Samakovlis, and Mats Nilsson (2026). *Cophenetic Spatial Topology Embedding reveals multiscale tissue architecture in spatial omics*. bioRxiv preprint. [doi:10.64898/2026.05.26.727847](https://doi.org/10.64898/2026.05.26.727847). [Version 1 on bioRxiv](https://www.biorxiv.org/content/10.64898/2026.05.26.727847v1).
 
 ```bibtex
 @article{long2026cellgps,

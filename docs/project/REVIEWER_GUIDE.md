@@ -1,15 +1,16 @@
 # Reviewer Guide
 
-This repository contains the code used to develop the Cell-GPS workflow described in the manuscript.
+This repository contains the code used to develop the CellGPS workflow described in the manuscript.
 
 ## Naming
 
-- Python distribution: `Cell-GPS`
-- Conda-forge distribution: `cell-gps`
+- Python distribution: `CellGPS`
 - Python import package: `cellgps`
-- Python GitHub repository: `https://github.com/hutaobo/Cell-GPS`
-- R package/repository: `cellgpsr`, hosted at `https://github.com/hutaobo/cellgpsr`
+- Python GitHub repository: `https://github.com/Moldia/CellGPS`
+- R package/repository: `cellgpsr`, hosted at `https://github.com/Moldia/cellgpsr`
 - Windows executable: `cellgps.exe`, latest open v2 DOI `https://doi.org/10.5281/zenodo.19482685`; version-series route `https://zenodo.org/records/17859173`
+
+The Python repository is the primary, full implementation: it contains all CellGPS functions and the complete bioRxiv preprint reproduction code. The R package and Windows files provide only the core functionality.
 
 ## Where to start
 
@@ -26,7 +27,7 @@ If you only have a few minutes, read the files in this order:
   Python package and implementation modules.
 - `docs/`
   Lightweight package documentation.
-- `Cell-GPS manuscript/`
+- `CellGPS manuscript/`
   Curated manuscript figure and supplementary table notebooks.
 - `examples/`
   Compact package usage examples and small example data files.
@@ -36,7 +37,7 @@ If you only have a few minutes, read the files in this order:
 ## Minimal install
 
 ```bash
-git clone https://github.com/hutaobo/Cell-GPS.git
+git clone https://github.com/Moldia/CellGPS.git
 cd cellgps
 pip install -e .
 ```
@@ -44,7 +45,7 @@ pip install -e .
 ## Manuscript validation scope
 
 The manuscript-validated scope is the COSTE/SSS workflow and the figure/table
-analyses mapped in `Cell-GPS manuscript/` and
+analyses mapped in `CellGPS manuscript/` and
 `docs/cellgps_science_manuscript_code_inventory.md`. Ligand-receptor topology,
 pathway topology, Visium helpers, GUI entry points and other convenience APIs
 are included for reuse and development, but should be treated as optional or

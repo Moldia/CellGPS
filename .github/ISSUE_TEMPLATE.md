@@ -1,4 +1,4 @@
-* sfplot version:
+* CellGPS version:
 * Python version:
 * Operating System:
 

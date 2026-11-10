@@ -7,6 +7,11 @@
 
 This repository is maintained as both the installable Python package and the code companion for the CellGPS/COSTE bioRxiv preprint.
 
+CellGPS is maintained in the Moldia organization. This public repository is the
+canonical source for development and the scverse ecosystem application. See
+[the migration guide](docs/project/MIGRATION.md) when moving from the historical
+Cell-GPS distribution or the personal repository.
+
 ## Implementations and availability
 
 [Moldia/CellGPS](https://github.com/Moldia/CellGPS) is the primary, full Python implementation. It contains all CellGPS functions and the complete reproduction code for the bioRxiv preprint. The [Moldia/cellgpsr](https://github.com/Moldia/cellgpsr) R package and the Windows files distributed in [Zenodo record 19482685](https://zenodo.org/records/19482685) provide only the core functionality; they do not include the full Python function set or the complete preprint reproduction code.
@@ -73,15 +78,15 @@ The Python package is hosted at <https://github.com/Moldia/CellGPS>. The R packa
 Install the current source directly from GitHub:
 
 ```bash
-pip install git+https://github.com/Moldia/CellGPS.git
+python -m pip install git+https://github.com/Moldia/CellGPS.git
 ```
 
 For local development or reviewer inspection:
 
 ```bash
 git clone https://github.com/Moldia/CellGPS.git
-cd cellgps
-pip install -e .
+cd CellGPS
+python -m pip install -e .
 ```
 
 The package requires Python 3.9 or later.

@@ -32,15 +32,15 @@ Install from GitHub:
 
 .. code-block:: bash
 
-   pip install git+https://github.com/Moldia/CellGPS.git
+   python -m pip install git+https://github.com/Moldia/CellGPS.git
 
 For local inspection:
 
 .. code-block:: bash
 
    git clone https://github.com/Moldia/CellGPS.git
-   cd cellgps
-   pip install -e .
+   cd CellGPS
+   python -m pip install -e .
 
 Reviewer note
 -------------

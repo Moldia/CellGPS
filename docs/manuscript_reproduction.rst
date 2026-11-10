@@ -14,7 +14,7 @@ Install the package and clone the repository:
 
 .. code-block:: console
 
-   pip install CellGPS
+   python -m pip install git+https://github.com/Moldia/CellGPS.git
    git clone https://github.com/Moldia/CellGPS.git
    cd cellgps
 

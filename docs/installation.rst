@@ -11,7 +11,7 @@ Install directly from the public repository:
 
 .. code-block:: console
 
-   $ pip install git+https://github.com/Moldia/CellGPS.git
+   $ python -m pip install git+https://github.com/Moldia/CellGPS.git
 
 For local inspection
 --------------------
@@ -21,16 +21,19 @@ Clone the repository and install it in editable mode:
 .. code-block:: console
 
    $ git clone https://github.com/Moldia/CellGPS.git
-   $ cd cellgps
-   $ pip install -e .
+   $ cd CellGPS
+   $ python -m pip install -e .
 
 Requirements
 ------------
 
 * Python 3.9 or newer
-* Standard scientific Python stack, including ``numpy``, ``pandas``,
-  ``matplotlib``, ``seaborn``, ``scanpy``, ``scikit-learn``, and
-  ``pyXenium`` for Xenium I/O
+* AnnData and the scientific Python dependencies declared in ``pyproject.toml``
+* ``pyXenium`` for optional Xenium I/O; normalization additionally uses Scanpy
+
+For migration from historical distributions and imports, see
+``docs/project/MIGRATION.md`` in the public repository. The current installation
+route uses only the company source; package-registry publication is separate.
 
 Optional extras
 ---------------

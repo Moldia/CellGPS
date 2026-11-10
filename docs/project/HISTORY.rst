@@ -5,6 +5,11 @@ History
 Unreleased
 ----------
 
+* Established Moldia/CellGPS as the canonical public source for the CellGPS
+  project and scverse ecosystem application, with a source migration guide.
+* Declared AnnData as a runtime dependency for the documented AnnData APIs.
+* Added a Windows test job and manual CI execution alongside the Linux matrix.
+
 * Renamed the ``CellGPS manuscript code/`` folder to ``CellGPS manuscript/`` and updated all README, documentation, and project-URL references.
 * Documented the COSTE extension manuscripts under ``manuscripts/`` in the README and repository layout.
 * Removed superseded duplicate scripts from ``benchmarking/``, moved the cell-based COSTE-HistoSeg script and benchmark log into the segmentation-free transcript-domain manuscript folder, and removed a duplicate Windows build-guide ``.docx``.
